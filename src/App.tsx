@@ -1,9 +1,11 @@
-import React from 'react';
+import React from "react";
+import "./assets/styles/global.css";
+import "./assets/styles/pages/landing.css";
+
+import Routes from "./routes";
 
 function App() {
-  return (
-    <h1>Oi maoes</h1>
-  );
+    return <Routes />;
 }
 
 export default App;
